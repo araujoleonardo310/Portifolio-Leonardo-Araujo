@@ -1,7 +1,8 @@
 import React from "react";
+import "./index.css";
 
-const index = () => {
-  return <div>footer</div>;
+const Footer = () => {
+  return <section>footer</section>;
 };
 
-export default index;
+export default Footer;

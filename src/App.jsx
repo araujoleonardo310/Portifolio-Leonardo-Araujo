@@ -5,7 +5,7 @@ import About from "./components/about";
 import Experiences from "./components/experiences";
 import Portifolio from "./components/portifolio";
 import Testimonials from "./components/testimonials";
-import Contacts from "./components/experiences";
+import Contacts from "./components/contacts";
 import Footer from "./components/footer";
 
 const App = () => {

@@ -4,9 +4,9 @@ import CTA from "./CTA";
 import ME from "../../assets/imgs/ajaxti-dia-do-estagiário.jpg";
 import HeaderSocial from "./HeaderSocial";
 
-const index = () => {
+const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div className="container header__container">
         <h5>Olá, eu sou</h5>
         <h1>Leonardo Araújo</h1>
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Header;

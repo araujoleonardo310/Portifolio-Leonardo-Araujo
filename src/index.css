@@ -35,10 +35,14 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url("./assets/imgs/text-bg.jpg");
+  background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,14,1) 100%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,14,1) 100%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,14,1) 100%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 }
 
 /* ============ GENERAL STYLES ============= */
@@ -57,10 +61,12 @@ h5 {
 
 h1 {
   font-size: 2.5rem;
+
 }
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,

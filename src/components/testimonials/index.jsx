@@ -1,7 +1,8 @@
 import React from "react";
+import "./index.css";
 
-const index = () => {
-  return <div>testimonials</div>;
+const Testimonials = () => {
+  return <section>testimonials</section>;
 };
 
-export default index;
+export default Testimonials;

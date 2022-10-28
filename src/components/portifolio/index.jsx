@@ -1,7 +1,8 @@
 import React from "react";
+import "./index.css";
 
-const index = () => {
-  return <div>portifolio</div>;
+const Portifolio = () => {
+  return <section id="portifolio">portifolio</section>;
 };
 
-export default index;
+export default Portifolio;
