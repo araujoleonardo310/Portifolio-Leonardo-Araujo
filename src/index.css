@@ -38,7 +38,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url("./assets/imgs/texture-bg.jpg");
+  background-image: url("./assets/imgs/text-bg.jpg");
 }
 
 /* ============ GENERAL STYLES ============= */
@@ -104,7 +104,7 @@ a:hover {
   border-color: transparent;
 }
 
-.bton-primary {
+.btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
@@ -132,7 +132,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section {
-    margin: 2rem;
+  section > h2 {
+    margin-bottom: 2rem;
   }
 }
