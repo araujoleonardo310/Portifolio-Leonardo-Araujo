@@ -1,5 +1,12 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,visualstudiocode,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,visualstudiocode,windows
+# Created by https://www.toptal.com/developers/gitignore/api/react,windows,powershell,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,windows,powershell,visualstudiocode
+
+### PowerShell ###
+# Exclude packaged modules
+*.zip
+
+# Exclude .NET assemblies from source
+*.dll
 
 ### react ###
 .DS_*
@@ -62,4 +69,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/react,visualstudiocode,windows
+# End of https://www.toptal.com/developers/gitignore/api/react,windows,powershell,visualstudiocode
